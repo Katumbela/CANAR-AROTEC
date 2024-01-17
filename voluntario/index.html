@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre o campeonato | AROTEC </title>
-    <link rel="shortcut icon" href="./img/logos/cnr2.png" type="image/x-icon">
+    <title>Formulario de Voluntário | CANAR</title>
+    <link rel="shortcut icon" href="../img/logos/cnr2.png" type="image/x-icon">
     <script src="../src/js/jquery.js"></script>
     <script src="../src/js/jquery.min.js"></script>
     <link rel="stylesheet" href="../extra/index.css">
     <link rel="stylesheet" href="../src/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <script src="../src/js/bootstrap.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +19,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
 </head>
+<style>
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+    @media (max-width: 700px) {
+
+        .bg-warning-2 {
+            background: #eeb8233a;
+        }
+    }
+
+    .form-control:focus-within {
+        border-color: #eeb823 !important;
+    }
+</style>
 
 <body>
     <nav class="w-100 position-relative navbar navbar-light  navbar-expand-md">
@@ -27,11 +40,16 @@
             <div class="w-100">
                 <div class="d-flex w-100 justify-between">
                     <div>
-                        <img src="../img/logos/cnr2.png" alt="" height="50em" class="navbar-brand">
+                        <a href="../"><img src="../img/logos/cnr2.png" alt="" height="50em" class="navbar-brand"></a>
                     </div>
                     <div class="mt-auto">
-                            <p class="text-xs my-auto font-thin"><a  class="text-xs font-thin btn btn-danger" href="../sponsor">Patrocine</a>
-                        </p>
+                        <span class="text-xs my-auto font-thin">
+                            <a  class="text-xs font-thin btn btn-warning text-light"
+                             href="../voluntario">Seja voluntário</a>
+                        </span>
+                        <span class="text-xs my-auto font-thin">
+                            <a  class="text-xs font-thin btn btn-danger" href="../sponsor">Patrocine</a>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -68,7 +86,9 @@
                         </ul>
                     </div>
                 </div>
-            </a><a class="ativo" href="./">
+            </a>
+
+            </a><a href="/sobre/">
                 <div>
                     CANAR
                 </div>
@@ -80,12 +100,11 @@
                 <div>
                     Home
                 </div>
-            </a><a class="" href="../archives.html">
+            </a><a class="ativo" href="../archives.html">
                 <div>
                     Arquivos
                 </div>
-            </a>
-            <a href="../results.html">
+            </a><a href="../results.html">
                 <div>
                     Resultados
                 </div>
@@ -99,7 +118,9 @@
                         </ul>
                     </div>
                 </div>
-            </a> <a href="./">
+            </a>
+
+            </a><a href="../sobre/">
                 <div>
                     CANAR
                 </div>
@@ -111,86 +132,83 @@
     <div class="banner2">
         <div class="text-center bannerr w-75 mx-auto p-3">
             <h1>
-                SOBRE O CAMPEONATO
+                INSCREVE-SE COMO VOLUNTÁRIO
             </h1>
 
         </div>
     </div>
+    <br>
 
-<br><br>
-
-    <main class="container">
-       
-
+    <main class="container py-lg-4 py-xxl-5">
+        <h1 class="text-warning">Preencha o formulário abaixo</h1>
         <div class="row">
-            <div class="col-12 col-sm-10 col-lg-10">
-                <br>
-                <br>
-                <h3>Sobre o campeonato</h3>
-                <div style="height: .2em; width: 3rem; background: #dfb913"></div>
-                <br>
-                <p>
-                    A AROTEC liga-se a missão da REMA (Rede de mediáticas de Angola) em trazer inovação a juventude angolana.
-                    Por estes objetivos juntaremos mais uma, estudantes ligados a o <b>CTEM</b> (Ciência, Tecnologia, Engenharia
-                    e Matemática) em uma competição de nível nacional com participações de escolas do ensino médio e não só,
-                    engajando os estudantes em uma competição colaborativa que instiga a importância, o entusiasmo e a
-                    aplicabilidade do ensino de CTEM em suas comunidades. Esta competição visa inspirar estudantes à aprenderem
-                    as habilidades necessárias para realizar as descobertas que as gerações dos seus pais e avós considerariam
-                    milagres, impossibilidades ou apenas ficção científica.
-                </p>
-        
-                <br>
-                <br>
-                <p>
-                <h3>Objetivos do Campeonato</h3>
-                <div style="height: .2em; width: 3rem; background: #dfb913"></div>
-               
-                <ul>
-                    <li class="my-2">
-                        Reunir 26 equipas Angolanas representando diferentes escolas de todo país com equipas compostas por 5
-                        estudantes cada e 2 mentores, a fim de aprenderem, competirem e colaborarem num evento sobre robótica,
-                        tecnologia matemática e ciência.
-                    </li>
-                    <li class="my-2">
-                        Criar um entusiasmo por todo país em volta das novas tecnologias e a educação.
-                    </li>
-                    <li class="my-2">
-                        Contribuir para a formação de futuros engenheiros, cientistas e inovadores angolas.
-                    </li>
-                    <li class="my-2">
-                        Inovar na educação e motivar as escolas a acatarem novas tecnologias nos seus currículos.
-                    </li>
-                    <li class="my-2">
-                        Esperasse despertar o interesse sobre o papel da robótica e novas tecnologias no desenvolvimento do
-                        nosso país.
-                    </li>
-                    <li class="my-2">
-                        Maior mobilização da juventude e outros parceiros para as iniciativas de desenvolvimento de projetos
-                        inovadores com potencial de melhorar as condições sociais de nossa sociedade.
-                    </li>
-        
-                </ul>
-        
-                </p>
-                </p>
-        
-            </div>
-            <div class="col-12 col-sm-2 col-lg-2">
+            <div class="col-12 my-2 my-lg-0">
+                <div class="bg-light rounded-4 p-3">
+                    <b class="text-secondary">Sobre ti</b>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 my-3 my-lg-4 col-sm-6 col-lg-6">
+                            <label for="nome" class="text-secondary">Nome Completo</label>
+                            <input type="text" name="nome" id="nome"
+                                placeholder="Digite o seu nome completo" class="form-control">
+                        </div>
+                        <div class="col-12 my-3 my-lg-4 col-sm-6 col-lg-6">
+                            <label for="idade" class="text-secondary">Idade</label>
+                            <input type="number" name="idade" id="idade" placeholder="Digite a sua idade"
+                                class="form-control">
+                        </div>
+                        <div class="col-12 my-3 my-lg-4 col-sm-6 col-lg-6">
+                            <label for="email" class="text-secondary">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Seu email" class="form-control">
+                        </div>
+                        <div class="col-12 my-3 my-lg-4 col-sm-6 col-lg-6">
+                            <label for="telefone" class="text-secondary">Telefone</label>
+                            <input type="tel" name="telefone" id="telefone" placeholder="Seu número de telefone"
+                                class="form-control">
+                        </div>
 
-                <br>
-                <br>
-                <span class="text-secondary">Redes sociais</span> <br>
-                <div class="d-flex gap-3">
-                    <a href="https://www.facebook.com/CANAR.FirstTeamAngola">
-                        <i class="bi bi-facebook"></i>
-                    </a>
-                    
+                        <div class="col-12 my-3 my-lg-4 col-sm-6 col-lg-6">
+                            <label for="grau_academica" class="text-secondary">Aptidões acadêmicas</label>
+                           <select name="grau_academica" id="grau_academica" class="form-control">
+                                <option value="Ensino Superior">Ensino Superior</option>
+                                <option value="Ensino Médio">Ensino Médio</option>
+                                <option value="Ensino Fundamental">Ensino Fundamental</option>
+                                <option value="N/A">N/A</option>
+                           </select>
+                        </div>
+
+                        <div class="col-12 my-3 my-lg-4 col-sm-6 col-lg-6">
+                            <label for="interesses" class="text-secondary">Descreva os seus interesses</label>
+                            <textarea name="interesses" id="interesses" placeholder="Descreva os seus interesses"
+                                class="form-control"></textarea>
+                        </div>
+
+                        
+                        <div class="col-12 my-3 my-lg-4 col-sm-6 col-lg-6">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="participou" name="participou">
+                                <label class="form-check-label" for="participou">
+                                  Já participou do CANAR (como voluntário ou equipe)?
+                                </label>
+                              </div>
+                            
+                        </div>
+
+                       
+                       
+                    </div>
                 </div>
             </div>
+           
         </div>
-
-
+        <br>
+        <br>
+        <center>
+            <button class="btn btn-warning text-white" onclick="enviarFormulario()">Enviar inscrição<i
+                    class="fas fa-arrow-right"></i></button>
+        </center>
     </main>
+
 
     <br>
     <br>
@@ -200,21 +218,21 @@
     <footer class="bg-dark pb-2 pt-4">
         <div class="container">
             <div class="d-flex gap-2 py-2">
-                <a href="../https://www.facebook.com/Arotec1/">
+                <a href="https://www.facebook.com/Arotec1/">
                     <svg fill="white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-facebook" viewBox="0 0 16 16">
                         <path
                             d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                     </svg>
                 </a>
-                <a href="../https://www.linkedin.com/company/arotecangola/?originalSubdomain=ao">
+                <a href="https://www.linkedin.com/company/arotecangola/?originalSubdomain=ao">
                     <svg fill="white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-linkedin" viewBox="0 0 16 16">
                         <path
                             d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                     </svg>
                 </a>
-                <a href="../https://www.youtube.com/@arotec1415">
+                <a href="https://www.youtube.com/@arotec1415">
                     <svg fill="white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-youtube" viewBox="0 0 16 16">
                         <path
@@ -228,8 +246,8 @@
                 </div>
             </div>
         </div>
-        <center><span class="text-white">Powered by <a class="text-white" href="../http://arotec.ao">AROTEC
-                    SU</a></span></center>
+        <center><span class="text-white">Powered by <a class="text-white" href="http://arotec.ao">AROTEC SU</a></span>
+        </center>
     </footer>
 
 
@@ -315,36 +333,79 @@
                 $(".bannerr").fadeIn('slow')
             }, 700);
 
-            var settings = {
-                "async": true,
-                "crossDomain": true,
-                "url": "https://api.alvochat.com/instance1199/messages/chat",
-                "method": "POST",
-                "headers": {},
-                "data": {
-                    "token": "YourToken",
-                    "to": 244946445629,
-                    "body": "WhatsApp API on alvochat.com works good",
-                    "priority": "",
-                    "preview_url": "",
-                    "message_id": ""
-                }
-            }
-
-            $.ajax(settings).done(function (response) {
-                console.log(response);
-                alert(response)
-            });
         })
 
 
 
         $("#y2022").click(function () {
-            window.location.href = "./";
+            window.location.href = "/2022";
         })
         $("#y2021").click(function () {
-            window.location.href = "./";
+            window.location.href = "/2021";
         })
+    </script>
+
+
+    <!-- Adicione o Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+
+    <script>
+
+
+        // Inicialize o Firebase
+        var firebaseConfig = {
+            apiKey: "AIzaSyBo-Xg_nqEHG7YsR4BUP6jPLW7Pe_66-m8",
+            authDomain: "arotec-374911.firebaseapp.com",
+            projectId: "arotec-374911",
+            storageBucket: "arotec-374911.appspot.com",
+            messagingSenderId: "318225936907",
+            appId: "1:318225936907:web:10c299f87fa132fc928d0e",
+            measurementId: "G-BQDTJLPEN1"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+
+        // Referencie a coleção no Firestore
+        var db = firebase.firestore();
+        var voluntarioCollection = db.collection("voluntarios");
+
+        // Função para enviar o formulário
+        function enviarFormulario() {
+            var nome = document.getElementById("nome").value;
+            var idade = document.getElementById("idade").value + ' anos';
+            var email = document.getElementById("email").value;
+            var telefone = document.getElementById("telefone").value;
+            var grau_academica = document.getElementById("grau_academica").value;
+            var interesses = document.getElementById("interesses").value;
+            var participou = document.getElementById("participou").checked;
+
+            // Criar objeto com os dados do voluntário
+            var voluntario = {
+                nome, 
+                idade, 
+                email, 
+                telefone, 
+                grau_academica, 
+                interesses, 
+                participou
+            };
+
+        
+            // Enviar voluntário para o Firestore
+            voluntarioCollection.add(voluntario)
+                .then(function (docRef) {
+
+                    alert("Sua inscrição foi enviada com sucesso, entraremos em contacto em breve ");
+                    // setTimeout(()=>{
+                    location.reload();
+                    //  },6000)
+                })
+                .catch(function (error) {
+                    console.error("Erro ao enviar a sua inscrição:", error);
+                    alert("Erro ao enviar a sua inscrição. Por favor, tente novamente.");
+                });
+        }
     </script>
 </body>
 
